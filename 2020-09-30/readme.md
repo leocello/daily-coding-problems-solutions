@@ -23,3 +23,8 @@ Then I realised I could do it in only one iteration to the array, so I created t
 ### 3. Single iteration solution - `singleIteration(list, k)`
 
 I really wanted to create an algorithm that would have the worst-case time complexity as O(n). So I thought that I actually don't need to sum the numbers to know if the sum is the value of `k`, but knowing the value of the item in the array, I could check if the difference between 'k' and the value of the item existed in the array.  
+I really liked this solution, and couldn't find any solution with a better time complexity, but I knew I still could reduce the code to have a single instruction, so I created the forth solution.
+
+### 4. Single instruction solution - `singleInstruction(list, k)`
+
+So I decided using the method find() from javascript array prototype to iterate into array, and reduce the amount of code in this function. It still has the same time complexity as the previous solution, but way less code. :)  

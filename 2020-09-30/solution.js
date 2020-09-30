@@ -35,6 +35,13 @@ const singleIteration = (list, k) => {
     return false;
 };
 
-module.exports = (list, k) => {
-    return singleIteration(list, k);
+const singleInstruction = (list, k) => {
+    return !!list.find((e, $i) => list.splice($i+1).includes(k - e));
+};
+
+module.exports = {
+    bruteForce,
+    lessBruteForce,
+    singleIteration,
+    singleInstruction,
 };

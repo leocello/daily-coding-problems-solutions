@@ -1,5 +1,5 @@
 const solution = (list, k) => {
-
+    return false;
 };
 
-solution([10, 15, 3, 7], 17);
+module.exports = solution;

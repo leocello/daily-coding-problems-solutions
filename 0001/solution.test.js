@@ -1,6 +1,6 @@
 const {bruteForce, lessBruteForce, singleIteration, singleInstruction} = require('./solution.js');
 
-it('2020-09-30 - bruteForce', () => {
+it('Problem #1 - bruteForce', () => {
     // 10 + 7 = 17
     expect(bruteForce([10, 15, 3, 7], 17)).toBe(true);
     expect(bruteForce([10, 15, 3, 6], 17)).toBe(false);
@@ -12,7 +12,7 @@ it('2020-09-30 - bruteForce', () => {
     expect(bruteForce([8, 15, 3, 6], 16)).toBe(false);
 });
 
-it('2020-09-30 - lessBruteForce', () => {
+it('Problem #1 - lessBruteForce', () => {
     // 10 + 7 = 17
     expect(lessBruteForce([10, 15, 3, 7], 17)).toBe(true);
     expect(lessBruteForce([10, 15, 3, 6], 17)).toBe(false);
@@ -24,7 +24,7 @@ it('2020-09-30 - lessBruteForce', () => {
     expect(lessBruteForce([8, 15, 3, 6], 16)).toBe(false);
 });
 
-it('2020-09-30 - singleIteration', () => {
+it('Problem #1 - singleIteration', () => {
     // 10 + 7 = 17
     expect(singleIteration([10, 15, 3, 7], 17)).toBe(true);
     expect(singleIteration([10, 15, 3, 6], 17)).toBe(false);
@@ -36,7 +36,7 @@ it('2020-09-30 - singleIteration', () => {
     expect(singleIteration([8, 15, 3, 6], 16)).toBe(false);
 });
 
-it('2020-09-30 - singleInstruction', () => {
+it('Problem #1 - singleInstruction', () => {
     // 10 + 7 = 17
     expect(singleInstruction([10, 15, 3, 7], 17)).toBe(true);
     expect(singleInstruction([10, 15, 3, 6], 17)).toBe(false);

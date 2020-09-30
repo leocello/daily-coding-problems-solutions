@@ -24,6 +24,17 @@ const lessBruteForce = (list, k) => {
     return false;
 };
 
+// Time complexity O(n)
+const singleIteration = (list, k) => {
+    for (let i= 0; i < list.length; i++) {
+        if (list.splice(i+1).includes(k - list[i])) {
+            return true;
+        }
+    }
+
+    return false;
+};
+
 module.exports = (list, k) => {
-    return lessBruteForce(list, k);
+    return singleIteration(list, k);
 };

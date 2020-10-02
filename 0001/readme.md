@@ -19,7 +19,7 @@ One thing that I realised that happens is that it tries each possible sum twice 
 ### 2. Less brute-force - `lessBruteForce(list, k)`
 
 As the brute-force solution ran the array twice, comparing each sum twice as well, I thought I wouldn't have to run the full array on the second iteration, but only the remaining part of the array, excluding the ones I have already gone on the first iteration.  
-So, I wrote this method that will have the worst-case time complexity of O(n log n).  
+So, I wrote this method that will still have the worst-case time complexity of O(n^2).  
 Then I realised I could do it in only one iteration to the array, so I created the third solution.  
 
 ### 3. Single iteration solution - `singleIteration(list, k)`

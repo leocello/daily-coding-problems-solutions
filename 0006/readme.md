@@ -1,7 +1,5 @@
 # Problem #6  
 
-05 Oct 2020  
-
 Good morning! Here's your coding interview problem for today.  
 
 This problem was asked by Google.  

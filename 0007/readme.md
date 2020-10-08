@@ -1,7 +1,5 @@
 # Problem #7  
 
-06 Oct 2020  
-
 Good morning! Here's your coding interview problem for today.  
 
 This problem was asked by Facebook.  

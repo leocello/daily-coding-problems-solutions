@@ -8,7 +8,7 @@ const scheduleJob = (job, milliseconds) => {
 
 const sum = (number1, number2) => {
     return number1 + number2;
-};
+};  
 
 scheduleJob(() => {
     console.log(sum(1, 2));

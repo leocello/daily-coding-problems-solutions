@@ -1,4 +1,4 @@
-# Tutorial by Marc - sent on 05/10/2020  
+# Solving tricky problems tutorial - by Marc  
 
 Hey there,  
 

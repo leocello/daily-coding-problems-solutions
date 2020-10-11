@@ -24,4 +24,4 @@ The second problem has a similar solution but with a dynamic number of steps tha
 
 Thinking about the second solution, we could improve the first one, to look like the second. So rather than assuming `1` and `0` have both `1` possibility, we can assume only `0` has a possibility and negatives have `0` possibilities. This will return the same result.  
 
-An interesting fact is that this problem is actually solved by fibonacci sequence.  
+An interesting fact is that this problem is actually solved by [fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number).  

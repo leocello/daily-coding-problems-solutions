@@ -13,3 +13,5 @@ Do this in constant space and in one pass.
 ## Solution  
 
 My solution for this problem is creating a method `remove(index)` in the class `LinkedList` that will first check if the element to be removed is the first one, and if so, just change the pointer for the head node to its next. If it's not the first one, it will create a pointer to navigate on the linked list until the element `index - 1` (`k - 1`) and change the pointer for the next to next of next.  
+
+The time complexity is linear `O(n)` and in one single pass as requested in the problem and the space is constant `O(1)`.  

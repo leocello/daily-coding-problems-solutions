@@ -1,6 +1,6 @@
 const { encodeRunLength, decodeRunLength } = require('./solution');
 
-it('run-length encode a string', () => {
+it('Problem #29 - Run-length encode a string', () => {
     expect(encodeRunLength('')).toEqual('');
     expect(encodeRunLength('XYZ')).toEqual('XYZ');
     expect(encodeRunLength('AABBBCCCC')).toEqual('2A3B4C');
@@ -9,7 +9,7 @@ it('run-length encode a string', () => {
     expect(encodeRunLength('aabbbcccc')).toEqual('2a3b4c');
   });
   
-  it('run-length decode a string', () => {
+  it('Problem #29 - Run-length decode a string', () => {
     expect(decodeRunLength('')).toEqual('');
     expect(decodeRunLength('XYZ')).toEqual('XYZ');
     expect(decodeRunLength('2A3B4C')).toEqual('AABBBCCCC');
@@ -18,6 +18,6 @@ it('run-length encode a string', () => {
     expect(decodeRunLength('2a3b4c')).toEqual('aabbbcccc');
   });
   
-  it('run-length encode and then decode', () => {
+  it('Problem #29 - Run-length encode and then decode', () => {
     expect(decodeRunLength(encodeRunLength('zzz ZZ  zZ'))).toEqual('zzz ZZ  zZ');
   });

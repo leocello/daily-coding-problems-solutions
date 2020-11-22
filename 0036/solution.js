@@ -9,6 +9,10 @@ class BTNode
 
 const getSecondFromBT = root => {
     if (!root.right) {
+        if (!root.left) {
+            return null;
+        }
+        
         let sec = root.left;
 
         while (!!sec.right) {

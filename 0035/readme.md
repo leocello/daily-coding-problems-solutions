@@ -10,7 +10,7 @@ Do this in linear time and in-place.
 
 For example, given the array `['G', 'B', 'R', 'R', 'B', 'R', 'G']`, it should become `['R', 'R', 'R', 'G', 'G', 'B', 'B']`.  
 
-# Solution  
+## Solution  
 
 I couldn't use brute sort algorithms to solve that problem like bubble sort, insertion sort or even merge sort, but they would run in quadratic time for the first two and `O(N log N)` for the third, which is not ideal as the problem requests it to run in linear time.
 
